@@ -1,38 +1,13 @@
 ---
-title: "Experiment"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-tags: ["first"]
-author: "Me"
-# author: ["Me", "You"] # multiple authors
+title: "Hello World: Welcome to My Homelab"
+date: 2024-03-20T10:00:00+00:00
+tags: ["homelab", "welcome"]
+author: "Jun Kin"
 showToc: true
-TocOpen: false
 draft: false
-hidemeta: false
-comments: false
-description: "This is first page experiment"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/chaijunkin/www/content/blogs/first_page.md"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+description: "Welcome to my new homelab blog built with Hugo and PaperMod."
 ---
 
-Dummy Content
+Welcome to my new blog! This space will be dedicated to documenting my homelab journey, cloud-native technologies, and Kubernetes experiments.
+
+Stay tuned for more updates!

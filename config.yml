@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-# enableGitInfo: true
+enableGitInfo: true
 mainsections: ["blogs"]
 hasCJKLanguage: true
 
@@ -129,12 +129,25 @@ params:
       url: /index.xml
 
   editPost:
-    URL: "https://github.com/chaijunkin"
+    URL: "https://github.com/chaijunkin/www/blob/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
   assets:
     disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  # analytics:
+  #   plausible:
+  #     domain: "cloudjur.com"
+  #     url: "https://plausible.io/js/plausible.js"
+  #   umami:
+  #     Site: "your-site-id"
+  #     URL: "https://umami.yourdomain.com"
 
   cover:
       hidden: false # hide everywhere but not in structured data

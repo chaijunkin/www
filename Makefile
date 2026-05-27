@@ -16,3 +16,7 @@ clean:
 # Create a new blog post (usage: make new title="my-new-post")
 new:
 	hugo new content/blogs/$(title).md
+
+# Update PaperMod theme to the latest version
+update-theme:
+	git submodule update --remote themes/PaperMod
